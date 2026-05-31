@@ -1,0 +1,6 @@
+{
+  "name": "FreeFlix",
+  "description": "Premium Netflix-like movie and series catalog with auto-updating releases, direct streaming simulations, and no ads or subscription fees.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

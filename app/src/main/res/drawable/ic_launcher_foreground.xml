@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Cinematic outer circle/ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:pathData="M 54,22 A 32,32 0 1,1 53.9,22 Z" />
+
+    <!-- Stylized Cine-reel notch indicators -->
+    <path
+        android:fillColor="#E50914"
+        android:pathData="M 54,14 L 54,18 M 54,90 L 54,94 M 14,54 L 18,54 M 90,54 L 94,54"
+        android:strokeColor="#E50914"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+
+    <!-- Bold, shiny cinematic Play Icon in red, offset to center properly -->
+    <!-- Triangle vertices around center (54, 54):
+         Point 1 (left): 44, 38
+         Point 2 (left bottom): 44, 70
+         Point 3 (tip right): 72, 54
+    -->
+    <path
+        android:fillColor="#E50914"
+        android:pathData="M 44,36 L 44,72 L 72,54 Z"
+        android:strokeColor="#E50914"
+        android:strokeWidth="1"
+        android:strokeLineJoin="round" />
+
+    <!-- Visual flare or spotlight accent in white -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 44,36 L 49,36 L 44,48 Z" />
+</vector>
